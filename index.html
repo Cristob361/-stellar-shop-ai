@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Shop AI Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Stellar Shop AI ✨</h1>
+        <div class="input-section">
+            <input type="text" id="userId" placeholder="Enter User ID (try: demo1, demo2, demo3)">
+            <button onclick="getRecommendations()">Discover</button>
+        </div>
+        <div class="results">
+            <h2>🌟 Top Recommendations</h2>
+            <div id="recommendationList"></div>
+            <h2>⚠️ System Alerts</h2>
+            <div id="warnings"></div>
+            <h2>🌌 Purchase Context</h2>
+            <div id="context"></div>
+            <h2>📡 Analytics Data</h2>
+            <div id="debugData"></div>
+        </div>
+        <div class="gdpr-notice">
+            🔒 Demo Version - Using sample data for demonstration purposes
+        </div>
+    </div>
+    <script src="recommender.js"></script>
+</body>
+</html>

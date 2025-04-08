@@ -1,0 +1,44 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Debug logs
+*.log
+
+# Local environment files
+.env
+.env.local
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Cache
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# JavaScript
+.npm
+.eslintcache
+.node_repl_history
+
+# IDE specific
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
